@@ -1,8 +1,10 @@
 # ShopReview
 **店舗レビュー投稿サイト**
 
+<br>
 
-<br><br>
+<img src="/docs/img/ShopReview.gif" alt="プレビュー" width="800" />
+
 ## サービスのURL
 
 メールアドレス：`test@test.com`、パスワード：`password` でログインできます
@@ -20,12 +22,12 @@ http://ec2-54-168-250-142.ap-northeast-1.compute.amazonaws.com/
 ## 機能一覧
 | トップ画面 |　店舗詳細画面 |
 | ---- | ---- |
-| ![Top画面](/docs/img/app-view/welcome_1.1.png) | ![ログイン画面](/docs/img/app-view/login_1.1.png) |
+| <img src="/docs/img/home.png" alt="プレビュー" width="500" /> | <img src="/docs/img/detail.gif" alt="プレビュー" width="478" /> |
 | 店舗の情報が画像とともに一覧で表示。<br>それぞれクリックすることで詳細画面に遷移。<br>また、検索や並び替え、ページネーションも実装。 | 店舗の詳細とレビューの一覧の表示。<br>画像がスライド形式で閲覧可能。<br>レビューに関しては並び替え、ページネーションを実装。 |
 
 | 店舗制作、編集画面 |　レビュー作成、編集画面 |
 | ---- | ---- |
-| ![事業者選択画面](/docs/img/app-view/select-business_1.1.png) | ![請求書作成画面](/docs/img/app-view/create-invoice_1.1.png) |
+| <img src="/docs/img/shop.png" alt="プレビュー" width="500" /> | <img src="/docs/img/review.png" alt="プレビュー" width="500" /> |
 | 店舗情報の作成や編集が可能。<br>アップロード予定の画像はプレビュー表示。<br>既存画像の削除も直感的に操作可能。 | レビューの新規作成、編集が可能。<br>レビューの編集は投稿者アカウントのみ。<br>店舗情報は自動的に紐づけられる。 |
 
 <br />
@@ -46,6 +48,6 @@ http://ec2-54-168-250-142.ap-northeast-1.compute.amazonaws.com/
 
 ## システム構成図
 
-![システム構成図](/docs/img/system-architecture/system-architecture_1.1.png)
+![システム構成図](/docs/img/aws.drawio.png)
 
 <br />
